@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #dbdbdb;
+}
+
+.container {
+  padding: 60px 150px 60px 150px;
+  background-color: #dbdbdb;
+}
+
+.title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 80px;
+  margin-bottom: 60px;
+  padding-left: 30px;
+}
+
+.none {
+  display: none;
+}
+
+.done {
+  background-color: #e8e8e8;
+  color: #787777;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* task_list */
+
+.tasks_list {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.no_tasks {
+  padding: 15px 0 30px 0;
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.task {
+  position: relative;
+  display: flex;
+  border-top: 1px #000 solid;
+  padding: 10px 0 10px 30px;
+}
+
+.task:last-child {
+  border-bottom: 1px #000 solid
+}
+
+.task_name {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.task_btn {
+  position: absolute;
+  right: 25px;
+  top: 7px;
+}
+
+.task_action {
+  width: 80px;
+  height: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.over:hover {
+  background-color: #9ffca2;
+}
+
+.delete:hover {
+  background-color: #f7847e;
+}
+
+.btn {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+  right: 1px;
+}
+
+/* new_task */
+
+.new_task {
+  padding: 50px 0 50px 30px;
+  background-color: #fff;
+}
+
+.new_task_head {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.task_input {
+  width: 95%;
+  border: 1px #000 solid;
+  margin-bottom: 20px;
+}
+
+.add_task_btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #3079ff;
+  font-size: 18px;
+  color: #000;
+}
+
+.add_task_btn:hover {
+  background-color: #68bfed;
+  color: #fff;
+}
